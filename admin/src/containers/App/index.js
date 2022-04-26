@@ -30,10 +30,10 @@ const App = () => {
           <Switch>
             <Route path={`/plugins/${pluginId}/export`} component={ExportPage}
                    exact/>
-            <Route path={`/plugins/${pluginId}/import`} component={ImportPage}
-                   exact/>
-            <Route path={`/plugins/${pluginId}/utilities`} component={UtilPage}
-                   exact/>
+            {/*<Route path={`/plugins/${pluginId}/import`} component={ImportPage}*/}
+            {/*       exact/>*/}
+            {/*<Route path={`/plugins/${pluginId}/utilities`} component={UtilPage}*/}
+            {/*       exact/>*/}
             <Redirect to={`/plugins/${pluginId}/export`}/>
           </Switch>
         </GridItem>
